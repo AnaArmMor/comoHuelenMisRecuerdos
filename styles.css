@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding-left: 5px;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(220, 141, 171);
+}
+
+.port {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+
+}
+
+.introduction {
+    width: 100%;
+    margin: 15px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+/*
+
+nav {
+    grid-column: 1/5;
+    line-height: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+
+}
+*/
+.titulo {
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: rgb(99, 99, 150);
+}
+
+
+.article {
+    background-color: rgb(214, 204, 204);
+    max-width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+}
+
+.cuentame {
+    text-align: center;
+    background-color: rgb(99, 99, 150);
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.recip {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(194, 180, 206);
+
+
+
+}
+
+.recip-photo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: aquamarine;
+}
+
+#recipes h2 {
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid blue;
+}
+
+
+.recip-photo h3 {
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+.return {
+    color: black;
+
+}
+
+@media(max-width:1050px) {
+    .recip {
+
+        grid-template-columns: repeat(3, 1fr);
+
+
+
+
+    }
+
+    .recip-photo {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media(max-width:800px) {
+    .recip {
+
+        grid-template-columns: repeat(2, 1fr);
+
+
+
+
+    }
+
+    .recip-photo {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media(max-width:580px){
+    .recip {
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+        
+    
+    }
+    
+    .recip-photo {
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
